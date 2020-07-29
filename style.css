@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+  padding: 60px;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding: 30px;
+  border-bottom: 10px solid  ;
+  border-image: url('/assets/background2.png') 60 30;
+  ;
+
+   
+}
+#top a{
+    color: white;
+    font-size: 2em;
+    margin:0 20px;
+}
+
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  height: 70px;
+  font-size:18px;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 45px;
+  margin-right: 1rem;
+}
+
+#header-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+#header-bottom span{
+  color:grey;
+  background-color:#F2F2F2 ;
+  padding: 10px;
+  margin-right: 0;
+}
+input{
+  width: 60%;
+  height: 40px;
+  border: 0;
+  background-color:#F2F2F2;
+  padding: 10px;
+  font-size: 20px;
+
+}
+#header-bottom a {
+  text-decoration: none;
+  padding: 14px 34px ;
+
+}
+#a1{
+   background-color: black;
+  color:white;
+ 
+}
+#a2{
+  border: 1px solid rgb(161, 161, 161);
+  color: black;
+  background-color: white;
+}
+
+#home{
+  background-image: url('/assets/b1.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 845px;
+  padding: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home > div{
+
+  display:flex;
+  flex-direction: column;
+  width: 745px;
+  text-align: center;
+  }
+
+h1{
+  font-size: 6.2em;
+  font-weight: 600;
+  margin-bottom:60px;
+  line-height: 1.25;
+}
+
+#home div p{
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+h3{
+  font-weight: 600;
+  font-size:3em ;
+  margin: 40px 0px ;
+
+}
+
+#btn{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+}
+button{
+  height: 80px;
+  width: 300px;
+  border:0;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: 16px 32px ;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+  
+
+.btn1{
+  background-color: #c12127;
+  border-bottom: 5px solid #FA8717;
+
+}
+.btn2{
+  background-color: #E81AA8;
+  border-bottom: 5px solid #B30AD2;
+
+}
+
+#bubble {
+ display:flex;
+    justify-content: center;
+    color: black;
+    padding:90px;
+  
+}
+
+#bubble>div{
+  text-align: center;
+  width: 780px;
+  font-size: 20px;
+  line-height: 1.5;
+
+}
+#bubble div{
+  text-align: center;
+  width: 780px;
+  font-size: 20px;
+  line-height: 1.5;
+
+}
+
+#products{
+  display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#products div{
+  display:flex;
+    justify-content: space-around;
+    margin:20px 0;
+    width: 100%;
+
+
+}
+
+#products div article{
+     display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:250px;
+}
+
+#products h4,p,hr{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#products div article p{
+    padding:0 5px;
+    line-height: 2;
+}
+h4{
+  font-size: 25px;
+  font-weight: 500;
+}
+#products div article a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1.8px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  border:1px solid black;
+  border-radius: 25px;
+}
+
+#open-source{
+  background-image: url('/assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px;
+  text-align: center;
+  margin-top: 50px;
+} 
+
+#open-source div{
+  width: 600px;
+  margin:auto;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.2em;
+  line-height:1.5;
+
+}
+#open-source h3{
+  font-size: 3.2em;
+}
+
+#company{
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+#company div{
+  width: 700px;
+  text-align: center;
+  color: rgb(110, 107, 107);
+
+
+}
+#company img{
+  width:600px;
+  margin: 60px 0;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  border-top: 0.5px solid rgb(180, 178, 178);
+}
+
+footer ul li a{
+  text-decoration: none;
+    color: rgb(110, 107, 107);
+    font-size: 1.5em;
+    line-height: 2;
+}
+footer ul{
+  list-style: none;
+}
