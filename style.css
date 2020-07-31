@@ -81,7 +81,7 @@ nav a {
   margin-right: 0;
 }
 input{
-  width: 60%;
+  width: 50%;
   height: 40px;
   border: 0;
   background-color:#F2F2F2;
@@ -106,7 +106,7 @@ input{
 }
 
 #home{
-  background-image: url('/assets/b1.png') ;
+  background-image: url('assets/b1.png') ;
   background-size: cover;
   background-repeat: no-repeat;
   height: 845px;
